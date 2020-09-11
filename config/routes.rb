@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  devise_for :users
+>>>>>>> parent of 843fc05... Revert "usersテーブルの作成"
   get 'messages/index'
 =======
   devise_for :users

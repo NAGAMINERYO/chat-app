@@ -3,7 +3,10 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
+<<<<<<< HEAD
 
 validates :name, presence: true
 
+=======
+>>>>>>> parent of 843fc05... Revert "usersテーブルの作成"
 end
